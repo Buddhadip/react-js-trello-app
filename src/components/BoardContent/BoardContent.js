@@ -137,6 +137,8 @@ const BoardContent = () => {
               )
             })}
 
+        </Container>
+
             {isShowAddList === false ?
               <div className= 'add-new-column' onClick={()=> setIsShowAddList(true)}>
               <i className='fa fa-plus icon'></i> Add another column
@@ -156,7 +158,7 @@ const BoardContent = () => {
             </div>
             </div>
             }
-        </Container>
+        
       </div>
     </>
   );

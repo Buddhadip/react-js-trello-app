@@ -29,7 +29,7 @@
      
     .add-new-column{
       width: 250px;
-      // height:32px;
+      height:40px;
       line-height: 32px;
       padding: 4px 0 4px 15px;
       cursor: pointer;
@@ -46,6 +46,7 @@
 
     .content-add-column{
       width: 250px;
+      height: fit-content;
       padding: 5px;
       margin-left :10px;
       border-radius: $card-border-radius;
